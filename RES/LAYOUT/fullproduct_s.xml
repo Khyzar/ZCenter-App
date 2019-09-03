@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/back9"
+    android:layout_height="match_parent" >
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/testingproduct" />
+     <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+        
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+      <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+                android:textColor="#ffffff"
+        
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:text="Price"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+        
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:text="Brand"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+        
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="18dp"
+        android:text="Details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+        
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView1"
+       
+        android:layout_marginRight="38dp"
+        android:text="TextView" />
+        <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+        
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_marginLeft="20dp"
+        android:layout_alignRight="@+id/textView5"
+        android:text="TextView" />
+     <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+        
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/textView6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+                android:textColor="#ffffff"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView7"
+        android:text="TextView" />
+
+       
+  
+
+</RelativeLayout>

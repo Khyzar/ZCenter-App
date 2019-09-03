@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">zcentre1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+   <color name="black">#FFFFFF</color>
+   <color name="white">#FFFFFF</color>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+      <string name="facebook_app_id">419388338242571</string>
+    
+</resources>

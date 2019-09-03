@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1639dp"
+    android:background="@color/black"
+    android:textColor="@color/white" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mobile" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+       android:layout_below="@+id/view"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/laptop" />
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView2"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="Laptops" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="57dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="Mobiles" />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView3"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/checkBox3"
+        android:src="@drawable/tablet" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:layout_toLeftOf="@+id/checkBox3"
+        android:src="@drawable/desktop" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignRight="@+id/checkBox3"
+        android:layout_marginBottom="48dp"
+        android:text="Desktop" />
+    
+    <View
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView4"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/checkBox4"
+        android:src="@drawable/tv" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_marginTop="34dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="TV" />
+    
+    <View
+        android:id="@+id/view4"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView5"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="40dp"
+        android:text="Tablets" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_below="@+id/view4"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/console" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox2"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_marginTop="49dp"
+        android:text="Consoles" />
+    
+    <View
+        android:id="@+id/view5"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView6"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view5"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@+id/checkBox7"
+        android:src="@drawable/accessories1" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox4"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginTop="41dp"
+        android:text="PC Tools" />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView7"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_below="@+id/view6"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/accessories2" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox7"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_marginTop="51dp"
+        android:text="Mobile Tools" />
+    <View
+        android:id="@+id/view7"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+      android:layout_below="@+id/imageView8"
+         android:layout_marginTop="15dp"
+       
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:onClick="CategorySelected"
+        android:text="Button" />
+
+</RelativeLayout>
+</ScrollView>
